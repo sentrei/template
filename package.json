@@ -30,8 +30,8 @@
     "prettier:fix": "yarn run prettier:cmd --write .",
     "prettier:lint": "yarn run prettier:cmd --check .",
     "postpublish": "pinst --enable",
-    "release": "yarn run multi-semantic-release && yarn run semantic-release",
-    "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
+    "release": "yarn run semantic-release",
+    "release:check": "yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
     "start": "next start"
