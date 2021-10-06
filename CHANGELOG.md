@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/sentrei/template/compare/v1.0.0...v1.0.1) (2021-10-06)
+
+### Bug Fixes
+
+- **deps:** update dependency @sentrei/next to ^1.13.1 ([70d042b](https://github.com/sentrei/template/commit/70d042b80d35fdd64e8478a76d1974c92a30ea2f))
+
 # 1.0.0 (2021-10-06)
 
 ### Features
