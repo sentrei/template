@@ -441,10 +441,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-11.1.3-canary.41.tgz#ad8e5d2b8ba99fc6db6a24db8d8abe7de4a2b007"
   integrity sha512-JlzHa9xQ6Vhpg1C5+u2DgwHGJ/TH7Z03yEHkwbEWCOpTJDg/moO/MhpmzposIU1ybWJAERGg5bS6Sw1wnjUdmQ==
 
-"@next/eslint-plugin-next@11.1.3-canary.41":
-  version "11.1.3-canary.41"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.1.3-canary.41.tgz#82e32209eff6f160e3834ce04b2a8eb6298eff8d"
-  integrity sha512-6x0sKEDBFSGPRMH7xCUwkFuCcAGm372JRXVN4aammol8RYNQ7Y0J1pI0gJApD0hvds723goADB1F2FJk0YjUwg==
+"@next/eslint-plugin-next@11.1.3-canary.49":
+  version "11.1.3-canary.49"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.1.3-canary.49.tgz#351fcd7a06a3e10e6bbd93ba6f947a0f6ca383ba"
+  integrity sha512-O55VEtETCJiccrvTPGLNU/35Yz8jxLMcnRdthwWhRI9DvjM/DohGsyqs5SZH0alsy7eQbLzZ3J4AXCs5QpDRgQ==
   dependencies:
     glob "7.1.7"
 
@@ -1002,15 +1002,15 @@
     cross-env "^7.0.3"
     multi-semantic-release "^2.9.0"
 
-"@sentrei/eslint-config@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/@sentrei/eslint-config/-/eslint-config-1.5.10.tgz#801b4993385f171cf4a460576f10f0cfb3937353"
-  integrity sha512-jBBNXXpw6nldmsNS494p3tPUrjCZnX3TfQHhxco6JVCinDO5PsFuSZoXGALmme4XbSkZNaqgemTPEO7Jn57S9Q==
+"@sentrei/eslint-config@1.5.13":
+  version "1.5.13"
+  resolved "https://registry.yarnpkg.com/@sentrei/eslint-config/-/eslint-config-1.5.13.tgz#221f344379a2f479deb6629f71cc12f30f2fd50c"
+  integrity sha512-mtis2IYEGywz8W+eY4wJtWgk46sPKSygju6WRqJG8TEGXij9kIStKSsjOJEFQdAyVFXILFLF17wm0a/pxcAMZA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.33.0"
     "@typescript-eslint/parser" "^4.33.0"
     eslint "^7.32.0"
-    eslint-config-next "^11.1.3-canary.41"
+    eslint-config-next "^11.1.3-canary.49"
     eslint-config-prettier "^8.3.0"
     eslint-import-resolver-typescript "^2.5.0"
     eslint-plugin-cypress "^2.12.1"
@@ -1021,7 +1021,7 @@
     eslint-plugin-react "^7.26.1"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-tailwindcss "^1.16.1"
+    eslint-plugin-tailwindcss "^1.17.0"
 
 "@sentrei/husky@1.3.0":
   version "1.3.0"
@@ -1034,15 +1034,15 @@
     is-ci "^3.0.0"
     pinst "^2.1.6"
 
-"@sentrei/kit@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@sentrei/kit/-/kit-1.0.3.tgz#00404d0feb337856d504382d42fd5bb74137bd6d"
-  integrity sha512-i2u7EBUVfvfjv0Nh43HTpYPAFsazhsbmr7ImUoyjr4AjDAXwOnNTCMf/buX7SpErnKj9sHXwteFsWtyfl0T8Qw==
+"@sentrei/kit@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@sentrei/kit/-/kit-1.0.6.tgz#e558f11f38f9350601c277124ef5497b7e56eac0"
+  integrity sha512-pZLWpN9HqhUpCbiMtlXZpe7+iiw51CjoQ9nRxWFdIEkDSMig0nGK+rHWOpg1MycamO/0QcL/cYv6I9LDCEqIKQ==
   dependencies:
     "@sentrei/commitlint" "1.2.2"
     "@sentrei/depcheck" "^1.5.0"
     "@sentrei/dev" "1.3.4"
-    "@sentrei/eslint-config" "1.5.10"
+    "@sentrei/eslint-config" "1.5.13"
     "@sentrei/husky" "1.3.0"
     "@sentrei/lint-staged" "1.2.3"
     "@sentrei/npm-check-updates" "1.5.1"
@@ -3641,12 +3641,12 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-next@^11.1.3-canary.41:
-  version "11.1.3-canary.41"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-11.1.3-canary.41.tgz#3c973b187b7b42069c8c2cd2279bec190ab0e460"
-  integrity sha512-C4Mgt4oFYpVF0ExKpl/QUliKXt74z9uKYKKp5ttfT/s/XDmJ0MYH9RBciqK71zhe07wVywVtkJdonCmYTBCpCA==
+eslint-config-next@^11.1.3-canary.49:
+  version "11.1.3-canary.49"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-11.1.3-canary.49.tgz#da04fe6f9a5e91e05e2c4494809d2363d89f8cc6"
+  integrity sha512-40nivvBI1yj+e5dm0TI4LOxZ5KTQoN+aEKS6Kh7PUXKepkkS9K3fCdCJkfNSvmknavtpxoHAERWNve/yTfZLSQ==
   dependencies:
-    "@next/eslint-plugin-next" "11.1.3-canary.41"
+    "@next/eslint-plugin-next" "11.1.3-canary.49"
     "@rushstack/eslint-patch" "^1.0.6"
     "@typescript-eslint/parser" "^4.20.0"
     eslint-import-resolver-node "^0.3.4"
@@ -3780,10 +3780,10 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-tailwindcss@^1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.16.1.tgz#12d8a0816651850283a99780a845eaff67b51362"
-  integrity sha512-nOmZ2lQKhLJjGTrrEnVnE9l/xXHq7IodiqtV3fQ8QjMB1m25/Jvz4T8jy/ntY//qs+nbH9e5EDbs0gHX3J8I/Q==
+eslint-plugin-tailwindcss@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tailwindcss/-/eslint-plugin-tailwindcss-1.17.0.tgz#ef618a7da3537cc105f49ea28302582ae8689211"
+  integrity sha512-IoaC0s2j0Cb+fXBZVxtFZe+0PQ3SaFJ2PK/mYvG2uGvIGKaU9AaLOVotCwMZIYv9oWVssyFTIehPqwJQWY2fAQ==
   dependencies:
     fast-glob "^3.2.5"
     postcss "^8.3.0"

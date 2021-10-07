@@ -40,7 +40,7 @@
     "@sentrei/tailwindcss": "^1.5.0"
   },
   "devDependencies": {
-    "@sentrei/kit": "^1.0.3"
+    "@sentrei/kit": "^1.0.6"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
